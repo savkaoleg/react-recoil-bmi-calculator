@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <link type="image/png" sizes="16x16" rel="icon" href="16.png" />
+    <link type="image/png" sizes="32x32" rel="icon" href="32.png" />
+    <link type="image/png" sizes="96x96" rel="icon" href="96.png" />
+    <title>React BMI Calculator</title>
+    <style>
+      .full-page-spinner-wraper {
+        position: absolute;
+        inset: 0px;
+        background: rgb(241, 241, 241);
+        display: flex;
+        flex-flow: row nowrap;
+        place-content: center;
+        align-items: center;
+      }
+      .full-page-spinner {
+        font-size: 3em;
+        color: rgba(0, 0, 0, 0.85);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root" id="root">
+      <div class="full-page-spinner-wraper">
+        <span class="full-page-spinner">⌛</span>
+      </div>
+    </div>
+  </body>
+</html>
